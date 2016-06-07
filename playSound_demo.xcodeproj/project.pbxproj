@@ -14,6 +14,7 @@
 		6EDE2BCF1D05BF33001DF3E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE2BCD1D05BF33001DF3E3 /* LaunchScreen.storyboard */; };
 		6EDE2BDA1D05BF34001DF3E3 /* playSound_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDE2BD91D05BF34001DF3E3 /* playSound_demoTests.swift */; };
 		6EDE2BE51D05BF34001DF3E3 /* playSound_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDE2BE41D05BF34001DF3E3 /* playSound_demoUITests.swift */; };
+		6EDE2BF31D05BF94001DF3E3 /* airplane1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE2BF21D05BF94001DF3E3 /* airplane1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		6EDE2BE01D05BF34001DF3E3 /* playSound_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playSound_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDE2BE41D05BF34001DF3E3 /* playSound_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playSound_demoUITests.swift; sourceTree = "<group>"; };
 		6EDE2BE61D05BF34001DF3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EDE2BF21D05BF94001DF3E3 /* airplane1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = airplane1.mp3; path = ../../../../Downloads/airplane1.mp3; sourceTree = "<group>"; };
+		6EDE2BF61D05D5A8001DF3E3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		6EDE2BB81D05BF33001DF3E3 = {
 			isa = PBXGroup;
 			children = (
+				6EDE2BF61D05D5A8001DF3E3 /* AVFoundation.framework */,
 				6EDE2BC31D05BF33001DF3E3 /* playSound_demo */,
 				6EDE2BD81D05BF34001DF3E3 /* playSound_demoTests */,
 				6EDE2BE31D05BF34001DF3E3 /* playSound_demoUITests */,
@@ -97,6 +101,7 @@
 		6EDE2BC31D05BF33001DF3E3 /* playSound_demo */ = {
 			isa = PBXGroup;
 			children = (
+				6EDE2BF21D05BF94001DF3E3 /* airplane1.mp3 */,
 				6EDE2BC41D05BF33001DF3E3 /* AppDelegate.swift */,
 				6EDE2BC61D05BF33001DF3E3 /* ViewController.swift */,
 				6EDE2BC81D05BF33001DF3E3 /* Main.storyboard */,
@@ -229,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EDE2BF31D05BF94001DF3E3 /* airplane1.mp3 in Resources */,
 				6EDE2BCF1D05BF33001DF3E3 /* LaunchScreen.storyboard in Resources */,
 				6EDE2BCC1D05BF33001DF3E3 /* Assets.xcassets in Resources */,
 				6EDE2BCA1D05BF33001DF3E3 /* Main.storyboard in Resources */,
@@ -482,6 +488,7 @@
 				6EDE2BEB1D05BF34001DF3E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EDE2BEC1D05BF34001DF3E3 /* Build configuration list for PBXNativeTarget "playSound_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				6EDE2BEE1D05BF34001DF3E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EDE2BEF1D05BF34001DF3E3 /* Build configuration list for PBXNativeTarget "playSound_demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				6EDE2BF11D05BF34001DF3E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
